@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
           : "bg-gradient-to-r from-blue-500 to-purple-500"
       }`}
     >
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center">
         <h1
           className={`text-2xl font-bold ${
             theme === "theme3" ? "text-white" : "text-gray-900"
@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
         >
           Theme App
         </h1>
-        <nav className="flex items-center space-x-4">
+        <nav className="flex items-center space-x-4 mt-2 md:mt-0">
           <Link to="/" className="hover:underline">
             Home
           </Link>

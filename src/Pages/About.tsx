@@ -8,7 +8,7 @@ export const About: React.FC = () => {
 
   return (
     <div
-      className={`pt-20 container mx-auto p-4 theme-transition ${
+      className={`pt-24 container mx-auto p-4 theme-transition ${
         theme === "theme2" ? "flex" : "block"
       }`}
     >

@@ -22,7 +22,7 @@ export const Home: React.FC = () => {
 
   return (
     <div
-      className={`pt-20 container mx-auto theme-transition ${
+      className={`pt-24 container mx-auto theme-transition ${
         theme === "theme2" ? "flex" : "block"
       }`}
     >
